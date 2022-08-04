@@ -1,0 +1,1176 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77BFB2C4289C058700BDFD4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2C3289C058700BDFD4F /* AppDelegate.swift */; };
+		77BFB2C6289C058700BDFD4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2C5289C058700BDFD4F /* SceneDelegate.swift */; };
+		77BFB2C8289C058700BDFD4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2C7289C058700BDFD4F /* ViewController.swift */; };
+		77BFB2CB289C058700BDFD4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BFB2C9289C058700BDFD4F /* Main.storyboard */; };
+		77BFB2CD289C058800BDFD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BFB2CC289C058800BDFD4F /* Assets.xcassets */; };
+		77BFB2D0289C058800BDFD4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BFB2CE289C058800BDFD4F /* LaunchScreen.storyboard */; };
+		77BFB2DB289C058800BDFD4F /* Phone_Battery_PercentageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2DA289C058800BDFD4F /* Phone_Battery_PercentageTests.swift */; };
+		77BFB2E5289C058800BDFD4F /* Phone_Battery_PercentageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2E4289C058800BDFD4F /* Phone_Battery_PercentageUITests.swift */; };
+		77BFB2E7289C058800BDFD4F /* Phone_Battery_PercentageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2E6289C058800BDFD4F /* Phone_Battery_PercentageUITestsLaunchTests.swift */; };
+		77BFB2EB289C058800BDFD4F /* Phone Battery Percentage WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 77BFB2EA289C058800BDFD4F /* Phone Battery Percentage WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		77BFB2F1289C058800BDFD4F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77BFB2EF289C058800BDFD4F /* Interface.storyboard */; };
+		77BFB2F3289C058900BDFD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BFB2F2289C058900BDFD4F /* Assets.xcassets */; };
+		77BFB2F9289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 77BFB2F8289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		77BFB2FE289C058900BDFD4F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2FD289C058900BDFD4F /* InterfaceController.swift */; };
+		77BFB300289C058900BDFD4F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB2FF289C058900BDFD4F /* ExtensionDelegate.swift */; };
+		77BFB302289C058900BDFD4F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB301289C058900BDFD4F /* NotificationController.swift */; };
+		77BFB304289C058900BDFD4F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB303289C058900BDFD4F /* ComplicationController.swift */; };
+		77BFB306289C058900BDFD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BFB305289C058900BDFD4F /* Assets.xcassets */; };
+		77BFB312289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB311289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppTests.swift */; };
+		77BFB31C289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB31B289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITests.swift */; };
+		77BFB31E289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BFB31D289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77BFB2D7289C058800BDFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BFB2B8289C058700BDFD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BFB2BF289C058700BDFD4F;
+			remoteInfo = "Phone Battery Percentage";
+		};
+		77BFB2E1289C058800BDFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BFB2B8289C058700BDFD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BFB2BF289C058700BDFD4F;
+			remoteInfo = "Phone Battery Percentage";
+		};
+		77BFB2EC289C058800BDFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BFB2B8289C058700BDFD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BFB2E9289C058800BDFD4F;
+			remoteInfo = "Phone Battery Percentage WatchKit App";
+		};
+		77BFB2FA289C058900BDFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BFB2B8289C058700BDFD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BFB2F7289C058900BDFD4F;
+			remoteInfo = "Phone Battery Percentage WatchKit Extension";
+		};
+		77BFB30E289C058900BDFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BFB2B8289C058700BDFD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BFB2F7289C058900BDFD4F;
+			remoteInfo = "Phone Battery Percentage WatchKit Extension";
+		};
+		77BFB318289C058900BDFD4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77BFB2B8289C058700BDFD4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77BFB2E9289C058800BDFD4F;
+			remoteInfo = "Phone Battery Percentage WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77BFB324289C058900BDFD4F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				77BFB2F9289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB328289C058900BDFD4F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				77BFB2EB289C058800BDFD4F /* Phone Battery Percentage WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77BFB2C0289C058700BDFD4F /* Phone Battery Percentage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Battery Percentage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB2C3289C058700BDFD4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77BFB2C5289C058700BDFD4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77BFB2C7289C058700BDFD4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77BFB2CA289C058700BDFD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77BFB2CC289C058800BDFD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77BFB2CF289C058800BDFD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77BFB2D1289C058800BDFD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BFB2D6289C058800BDFD4F /* Phone Battery PercentageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone Battery PercentageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB2DA289C058800BDFD4F /* Phone_Battery_PercentageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Battery_PercentageTests.swift; sourceTree = "<group>"; };
+		77BFB2E0289C058800BDFD4F /* Phone Battery PercentageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone Battery PercentageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB2E4289C058800BDFD4F /* Phone_Battery_PercentageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Battery_PercentageUITests.swift; sourceTree = "<group>"; };
+		77BFB2E6289C058800BDFD4F /* Phone_Battery_PercentageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Battery_PercentageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77BFB2EA289C058800BDFD4F /* Phone Battery Percentage WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone Battery Percentage WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB2F0289C058800BDFD4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		77BFB2F2289C058900BDFD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77BFB2F8289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Phone Battery Percentage WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB2FD289C058900BDFD4F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		77BFB2FF289C058900BDFD4F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		77BFB301289C058900BDFD4F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		77BFB303289C058900BDFD4F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		77BFB305289C058900BDFD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77BFB307289C058900BDFD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BFB308289C058900BDFD4F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		77BFB30D289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone Battery Percentage WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB311289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Battery_Percentage_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		77BFB317289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phone Battery Percentage WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77BFB31B289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Battery_Percentage_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		77BFB31D289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone_Battery_Percentage_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77BFB2BD289C058700BDFD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2D3289C058800BDFD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2DD289C058800BDFD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2F5289C058900BDFD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB30A289C058900BDFD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB314289C058900BDFD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77BFB2B7289C058700BDFD4F = {
+			isa = PBXGroup;
+			children = (
+				77BFB2C2289C058700BDFD4F /* Phone Battery Percentage */,
+				77BFB2D9289C058800BDFD4F /* Phone Battery PercentageTests */,
+				77BFB2E3289C058800BDFD4F /* Phone Battery PercentageUITests */,
+				77BFB2EE289C058800BDFD4F /* Phone Battery Percentage WatchKit App */,
+				77BFB2FC289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension */,
+				77BFB310289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests */,
+				77BFB31A289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests */,
+				77BFB2C1289C058700BDFD4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77BFB2C1289C058700BDFD4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB2C0289C058700BDFD4F /* Phone Battery Percentage.app */,
+				77BFB2D6289C058800BDFD4F /* Phone Battery PercentageTests.xctest */,
+				77BFB2E0289C058800BDFD4F /* Phone Battery PercentageUITests.xctest */,
+				77BFB2EA289C058800BDFD4F /* Phone Battery Percentage WatchKit App.app */,
+				77BFB2F8289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension.appex */,
+				77BFB30D289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests.xctest */,
+				77BFB317289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77BFB2C2289C058700BDFD4F /* Phone Battery Percentage */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB2C3289C058700BDFD4F /* AppDelegate.swift */,
+				77BFB2C5289C058700BDFD4F /* SceneDelegate.swift */,
+				77BFB2C7289C058700BDFD4F /* ViewController.swift */,
+				77BFB2C9289C058700BDFD4F /* Main.storyboard */,
+				77BFB2CC289C058800BDFD4F /* Assets.xcassets */,
+				77BFB2CE289C058800BDFD4F /* LaunchScreen.storyboard */,
+				77BFB2D1289C058800BDFD4F /* Info.plist */,
+			);
+			path = "Phone Battery Percentage";
+			sourceTree = "<group>";
+		};
+		77BFB2D9289C058800BDFD4F /* Phone Battery PercentageTests */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB2DA289C058800BDFD4F /* Phone_Battery_PercentageTests.swift */,
+			);
+			path = "Phone Battery PercentageTests";
+			sourceTree = "<group>";
+		};
+		77BFB2E3289C058800BDFD4F /* Phone Battery PercentageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB2E4289C058800BDFD4F /* Phone_Battery_PercentageUITests.swift */,
+				77BFB2E6289C058800BDFD4F /* Phone_Battery_PercentageUITestsLaunchTests.swift */,
+			);
+			path = "Phone Battery PercentageUITests";
+			sourceTree = "<group>";
+		};
+		77BFB2EE289C058800BDFD4F /* Phone Battery Percentage WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB2EF289C058800BDFD4F /* Interface.storyboard */,
+				77BFB2F2289C058900BDFD4F /* Assets.xcassets */,
+			);
+			path = "Phone Battery Percentage WatchKit App";
+			sourceTree = "<group>";
+		};
+		77BFB2FC289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB2FD289C058900BDFD4F /* InterfaceController.swift */,
+				77BFB2FF289C058900BDFD4F /* ExtensionDelegate.swift */,
+				77BFB301289C058900BDFD4F /* NotificationController.swift */,
+				77BFB303289C058900BDFD4F /* ComplicationController.swift */,
+				77BFB305289C058900BDFD4F /* Assets.xcassets */,
+				77BFB307289C058900BDFD4F /* Info.plist */,
+				77BFB308289C058900BDFD4F /* PushNotificationPayload.apns */,
+			);
+			path = "Phone Battery Percentage WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		77BFB310289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB311289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppTests.swift */,
+			);
+			path = "Phone Battery Percentage WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		77BFB31A289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77BFB31B289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITests.swift */,
+				77BFB31D289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "Phone Battery Percentage WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77BFB2BF289C058700BDFD4F /* Phone Battery Percentage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB329289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage" */;
+			buildPhases = (
+				77BFB2BC289C058700BDFD4F /* Sources */,
+				77BFB2BD289C058700BDFD4F /* Frameworks */,
+				77BFB2BE289C058700BDFD4F /* Resources */,
+				77BFB328289C058900BDFD4F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BFB2ED289C058800BDFD4F /* PBXTargetDependency */,
+			);
+			name = "Phone Battery Percentage";
+			productName = "Phone Battery Percentage";
+			productReference = 77BFB2C0289C058700BDFD4F /* Phone Battery Percentage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77BFB2D5289C058800BDFD4F /* Phone Battery PercentageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB32C289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery PercentageTests" */;
+			buildPhases = (
+				77BFB2D2289C058800BDFD4F /* Sources */,
+				77BFB2D3289C058800BDFD4F /* Frameworks */,
+				77BFB2D4289C058800BDFD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BFB2D8289C058800BDFD4F /* PBXTargetDependency */,
+			);
+			name = "Phone Battery PercentageTests";
+			productName = "Phone Battery PercentageTests";
+			productReference = 77BFB2D6289C058800BDFD4F /* Phone Battery PercentageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77BFB2DF289C058800BDFD4F /* Phone Battery PercentageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB32F289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery PercentageUITests" */;
+			buildPhases = (
+				77BFB2DC289C058800BDFD4F /* Sources */,
+				77BFB2DD289C058800BDFD4F /* Frameworks */,
+				77BFB2DE289C058800BDFD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BFB2E2289C058800BDFD4F /* PBXTargetDependency */,
+			);
+			name = "Phone Battery PercentageUITests";
+			productName = "Phone Battery PercentageUITests";
+			productReference = 77BFB2E0289C058800BDFD4F /* Phone Battery PercentageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		77BFB2E9289C058800BDFD4F /* Phone Battery Percentage WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB325289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit App" */;
+			buildPhases = (
+				77BFB2E8289C058800BDFD4F /* Resources */,
+				77BFB324289C058900BDFD4F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BFB2FB289C058900BDFD4F /* PBXTargetDependency */,
+			);
+			name = "Phone Battery Percentage WatchKit App";
+			productName = "Phone Battery Percentage WatchKit App";
+			productReference = 77BFB2EA289C058800BDFD4F /* Phone Battery Percentage WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		77BFB2F7289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB321289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit Extension" */;
+			buildPhases = (
+				77BFB2F4289C058900BDFD4F /* Sources */,
+				77BFB2F5289C058900BDFD4F /* Frameworks */,
+				77BFB2F6289C058900BDFD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Phone Battery Percentage WatchKit Extension";
+			productName = "Phone Battery Percentage WatchKit Extension";
+			productReference = 77BFB2F8289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		77BFB30C289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB332289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit AppTests" */;
+			buildPhases = (
+				77BFB309289C058900BDFD4F /* Sources */,
+				77BFB30A289C058900BDFD4F /* Frameworks */,
+				77BFB30B289C058900BDFD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BFB30F289C058900BDFD4F /* PBXTargetDependency */,
+			);
+			name = "Phone Battery Percentage WatchKit AppTests";
+			productName = "Phone Battery Percentage WatchKit AppTests";
+			productReference = 77BFB30D289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77BFB316289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77BFB335289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit AppUITests" */;
+			buildPhases = (
+				77BFB313289C058900BDFD4F /* Sources */,
+				77BFB314289C058900BDFD4F /* Frameworks */,
+				77BFB315289C058900BDFD4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77BFB319289C058900BDFD4F /* PBXTargetDependency */,
+			);
+			name = "Phone Battery Percentage WatchKit AppUITests";
+			productName = "Phone Battery Percentage WatchKit AppUITests";
+			productReference = 77BFB317289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77BFB2B8289C058700BDFD4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					77BFB2BF289C058700BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					77BFB2D5289C058800BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 77BFB2BF289C058700BDFD4F;
+					};
+					77BFB2DF289C058800BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 77BFB2BF289C058700BDFD4F;
+					};
+					77BFB2E9289C058800BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					77BFB2F7289C058900BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					77BFB30C289C058900BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 77BFB2F7289C058900BDFD4F;
+					};
+					77BFB316289C058900BDFD4F = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 77BFB2E9289C058800BDFD4F;
+					};
+				};
+			};
+			buildConfigurationList = 77BFB2BB289C058700BDFD4F /* Build configuration list for PBXProject "Phone Battery Percentage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77BFB2B7289C058700BDFD4F;
+			productRefGroup = 77BFB2C1289C058700BDFD4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77BFB2BF289C058700BDFD4F /* Phone Battery Percentage */,
+				77BFB2D5289C058800BDFD4F /* Phone Battery PercentageTests */,
+				77BFB2DF289C058800BDFD4F /* Phone Battery PercentageUITests */,
+				77BFB2E9289C058800BDFD4F /* Phone Battery Percentage WatchKit App */,
+				77BFB2F7289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension */,
+				77BFB30C289C058900BDFD4F /* Phone Battery Percentage WatchKit AppTests */,
+				77BFB316289C058900BDFD4F /* Phone Battery Percentage WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77BFB2BE289C058700BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB2D0289C058800BDFD4F /* LaunchScreen.storyboard in Resources */,
+				77BFB2CD289C058800BDFD4F /* Assets.xcassets in Resources */,
+				77BFB2CB289C058700BDFD4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2D4289C058800BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2DE289C058800BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2E8289C058800BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB2F3289C058900BDFD4F /* Assets.xcassets in Resources */,
+				77BFB2F1289C058800BDFD4F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2F6289C058900BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB306289C058900BDFD4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB30B289C058900BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB315289C058900BDFD4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77BFB2BC289C058700BDFD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB2C8289C058700BDFD4F /* ViewController.swift in Sources */,
+				77BFB2C4289C058700BDFD4F /* AppDelegate.swift in Sources */,
+				77BFB2C6289C058700BDFD4F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2D2289C058800BDFD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB2DB289C058800BDFD4F /* Phone_Battery_PercentageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2DC289C058800BDFD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB2E5289C058800BDFD4F /* Phone_Battery_PercentageUITests.swift in Sources */,
+				77BFB2E7289C058800BDFD4F /* Phone_Battery_PercentageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB2F4289C058900BDFD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB302289C058900BDFD4F /* NotificationController.swift in Sources */,
+				77BFB304289C058900BDFD4F /* ComplicationController.swift in Sources */,
+				77BFB300289C058900BDFD4F /* ExtensionDelegate.swift in Sources */,
+				77BFB2FE289C058900BDFD4F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB309289C058900BDFD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB312289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77BFB313289C058900BDFD4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BFB31E289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				77BFB31C289C058900BDFD4F /* Phone_Battery_Percentage_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77BFB2D8289C058800BDFD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BFB2BF289C058700BDFD4F /* Phone Battery Percentage */;
+			targetProxy = 77BFB2D7289C058800BDFD4F /* PBXContainerItemProxy */;
+		};
+		77BFB2E2289C058800BDFD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BFB2BF289C058700BDFD4F /* Phone Battery Percentage */;
+			targetProxy = 77BFB2E1289C058800BDFD4F /* PBXContainerItemProxy */;
+		};
+		77BFB2ED289C058800BDFD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BFB2E9289C058800BDFD4F /* Phone Battery Percentage WatchKit App */;
+			targetProxy = 77BFB2EC289C058800BDFD4F /* PBXContainerItemProxy */;
+		};
+		77BFB2FB289C058900BDFD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BFB2F7289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension */;
+			targetProxy = 77BFB2FA289C058900BDFD4F /* PBXContainerItemProxy */;
+		};
+		77BFB30F289C058900BDFD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BFB2F7289C058900BDFD4F /* Phone Battery Percentage WatchKit Extension */;
+			targetProxy = 77BFB30E289C058900BDFD4F /* PBXContainerItemProxy */;
+		};
+		77BFB319289C058900BDFD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77BFB2E9289C058800BDFD4F /* Phone Battery Percentage WatchKit App */;
+			targetProxy = 77BFB318289C058900BDFD4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77BFB2C9289C058700BDFD4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BFB2CA289C058700BDFD4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77BFB2CE289C058800BDFD4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BFB2CF289C058800BDFD4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		77BFB2EF289C058800BDFD4F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77BFB2F0289C058800BDFD4F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77BFB31F289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77BFB320289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		77BFB322289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phone Battery Percentage WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Phone Battery Percentage WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		77BFB323289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phone Battery Percentage WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Phone Battery Percentage WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		77BFB326289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Phone_Battery_Percentage_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Phone Battery Percentage WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "example.Phone-Battery-Percentage";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		77BFB327289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = Phone_Battery_Percentage_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "Phone Battery Percentage WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "example.Phone-Battery-Percentage";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		77BFB32A289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phone Battery Percentage/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77BFB32B289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Phone Battery Percentage/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77BFB32D289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-PercentageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Battery Percentage.app/Phone Battery Percentage";
+			};
+			name = Debug;
+		};
+		77BFB32E289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-PercentageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Battery Percentage.app/Phone Battery Percentage";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77BFB330289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-PercentageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Phone Battery Percentage";
+			};
+			name = Debug;
+		};
+		77BFB331289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-PercentageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Phone Battery Percentage";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77BFB333289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Battery Percentage WatchKit Extension.appex/Phone Battery Percentage WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		77BFB334289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phone Battery Percentage WatchKit Extension.appex/Phone Battery Percentage WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		77BFB336289C058900BDFD4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Phone Battery Percentage WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		77BFB337289C058900BDFD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3KT82A3HGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Phone-Battery-Percentage-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Phone Battery Percentage WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77BFB2BB289C058700BDFD4F /* Build configuration list for PBXProject "Phone Battery Percentage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB31F289C058900BDFD4F /* Debug */,
+				77BFB320289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB321289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB322289C058900BDFD4F /* Debug */,
+				77BFB323289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB325289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB326289C058900BDFD4F /* Debug */,
+				77BFB327289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB329289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB32A289C058900BDFD4F /* Debug */,
+				77BFB32B289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB32C289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery PercentageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB32D289C058900BDFD4F /* Debug */,
+				77BFB32E289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB32F289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery PercentageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB330289C058900BDFD4F /* Debug */,
+				77BFB331289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB332289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB333289C058900BDFD4F /* Debug */,
+				77BFB334289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77BFB335289C058900BDFD4F /* Build configuration list for PBXNativeTarget "Phone Battery Percentage WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BFB336289C058900BDFD4F /* Debug */,
+				77BFB337289C058900BDFD4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77BFB2B8289C058700BDFD4F /* Project object */;
+}
